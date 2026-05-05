@@ -203,151 +203,92 @@ Slack (Notifications)
 
 ![Slack Alert](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Slack%20Alert%20Message.png)
 
-# 
 
-# \---
 
-# 
+---
 
-# \## 🚨 Alerting Logic
 
-# 
+## 🚨 Alerting Logic
+
+
 
 # Alert triggers when:
 
-# 
 
-# ```
 
-# Error rate > 1% OR high number of failed requests
+```
 
-# ```
+Error rate > 1% OR high number of failed requests
 
-# 
+```
 
-# \*\*PromQL Example:\*\*
 
-# 
 
-# ```promql
+*\*PromQL Example:\*\*
 
-# sum(increase(flask\_http\_request\_duration\_seconds\_count{status!="200"}\[5m]))
 
-# ```
 
-# 
+```promql
 
-# \---
+sum(increase(flask\_http\_request\_duration\_seconds\_count{status!="200"}\[5m]))
 
-# 
+```
 
-# \## 📊 Dashboard Panels
 
-# 
 
-# \- API Request Rate
+---
 
-# \- Request Duration
 
-# \- HTTP Status Codes
+## 📊 Dashboard Panels
 
-# \- Pod CPU Usage
 
-# \- Pod Memory Usage
 
-# \- Pod Restarts
+- API Request Rate
 
-# 
+- Request Duration
 
-# \---
+- HTTP Status Codes
 
-# 
+- Pod CPU Usage
 
-# \## 🧪 How to Run Locally
+- Pod Memory Usage
 
-# 
+- Pod Restarts
 
-# ```bash
 
-# git clone https://github.com/Sathish11-Design/gitops-observability-platform.git
+---
 
-# cd gitops-observability-platform
 
-# 
 
-# docker build -t task-manager-api .
 
-# docker run -p 5000:5000 task-manager-api
 
-# ```
+---
 
-# 
 
-# \---
 
-# 
+## 📌 Key Learnings
 
-# \## 📌 Key Learnings
 
-# 
 
-# \- Implemented GitOps workflow using Argo CD
+- Implemented GitOps workflow using Argo CD
 
-# \- Built CI/CD pipeline with GitHub Actions
+- Built CI/CD pipeline with GitHub Actions
 
-# \- Integrated application metrics with Prometheus
+- Integrated application metrics with Prometheus
 
-# \- Designed real-time dashboards in Grafana
+- Designed real-time dashboards in Grafana
 
-# \- Configured alerting with Slack integration
+- Configured alerting with Slack integration
 
-# \- Deployed scalable app on Kubernetes
+- Deployed scalable app on Kubernetes
 
-# 
 
-# \---
 
-# 
+---
 
-# \## 💼 Resume Highlights
 
-# 
 
-# \- Built a GitOps-based Kubernetes deployment system
 
-# \- Implemented end-to-end CI/CD pipeline
-
-# \- Designed observability platform with Prometheus \& Grafana
-
-# \- Configured real-time Slack alerting for incidents
-
-# \- Deployed infrastructure on AWS EC2
-
-# 
-
-# \---
-
-# 
-
-# \## 🚀 Future Improvements
-
-# 
-
-# \- Add logging using Loki
-
-# \- Implement auto-scaling (HPA)
-
-# \- Use Terraform for infrastructure provisioning
-
-# \- Add Ingress with custom domain
-
-# 
-
-# \---
-
-# 
-
-# ⭐ If you found this useful, give it a star!
 
 
 

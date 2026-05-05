@@ -44,165 +44,164 @@ Developer → GitHub → GitHub Actions → Docker Hub → Argo CD → Kubernete
 
 - Code is pushed to GitHub
 
-# \- GitHub Actions builds and pushes Docker image
+- GitHub Actions builds and pushes Docker image
 
-# \- Argo CD detects changes and deploys to Kubernetes
+- Argo CD detects changes and deploys to Kubernetes
 
-# \- Prometheus collects application metrics
+- Prometheus collects application metrics
 
-# \- Grafana visualizes metrics
+- Grafana visualizes metrics
 
-# \- Alerts are triggered and sent to Slack
+- Alerts are triggered and sent to Slack
 
-# 
 
-# \---
 
-# 
+---
 
-# \## 🛠️ Tech Stack
 
-# 
+## 🛠️ Tech Stack
 
-# | Category | Tool |
 
-# |---|---|
 
-# | Cloud | AWS EC2 |
+ | Category | Tool |
 
-# | Containerization | Docker |
+ |---|---|
 
-# | Orchestration | Kubernetes (k3s) |
+ | Cloud | AWS EC2 |
 
-# | GitOps | Argo CD |
+ | Containerization | Docker |
 
-# | CI/CD | GitHub Actions |
+ | Orchestration | Kubernetes (k3s) |
 
-# | Monitoring | Prometheus |
+ | GitOps | Argo CD |
 
-# | Visualization | Grafana |
+ | CI/CD | GitHub Actions |
 
-# | Alerting | Slack Webhooks |
+ | Monitoring | Prometheus |
 
-# | Backend | Python Flask |
+ | Visualization | Grafana |
 
-# 
+ | Alerting | Slack Webhooks |
 
-# \---
+ | Backend | Python Flask |
 
-# 
 
-# \## ⚙️ Features
 
-# 
+---
 
-# \- Automated CI/CD pipeline
+ 
 
-# \- GitOps-based deployment
+## ⚙️ Features
 
-# \- Kubernetes application deployment
 
-# \- Real-time monitoring
 
-# \- Custom metrics using `/metrics`
+- Automated CI/CD pipeline
 
-# \- Grafana dashboards
+- GitOps-based deployment
 
-# \- Slack alert notifications
+- Kubernetes application deployment
 
-# 
+- Real-time monitoring
 
-# \---
+- Custom metrics using `/metrics`
 
-# 
+- Grafana dashboards
 
-# \## 🏗️ Architecture
+- Slack alert notifications
 
-# 
+ 
 
-# ```
+---
 
-# GitHub (Code)
+ 
 
-# ↓
+## 🏗️ Architecture
 
-# GitHub Actions (CI/CD)
+ 
 
-# ↓
+ ```
 
-# Docker Hub (Image)
+GitHub (Code)
 
-# ↓
+↓
 
-# Argo CD (GitOps)
+GitHub Actions (CI/CD)
 
-# ↓
+↓
 
-# Kubernetes (k3s on EC2)
+Docker Hub (Image)
 
-# ↓
+↓
 
-# Prometheus (Metrics)
+Argo CD (GitOps)
 
-# ↓
+↓
 
-# Grafana (Dashboards + Alerts)
+Kubernetes (k3s on EC2)
 
-# ↓
+↓
 
-# Slack (Notifications)
+Prometheus (Metrics)
 
-# ```
+↓
 
-# 
+Grafana (Dashboards + Alerts)
 
-# \---
+↓
 
-# 
+Slack (Notifications)
 
-# \## 📸 Screenshots
+```
 
-# 
+ 
 
-# \### 🔹 Argo CD Deployment
+---
 
-# !\[Argo CD](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Argo%20CD.png)
+ 
 
-# 
+## 📸 Screenshots
 
-# \### 🔹 Kubernetes Pods Running
+ 
 
-# !\[Kubernetes Pods](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Kubernetes%20Pods.png)
+### 🔹 Argo CD Deployment
 
-# 
+!\[Argo CD](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Argo%20CD.png)
 
-# \### 🔹 GitHub Actions CI/CD Pipeline
+ 
 
-# !\[GitHub Actions](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/GitHub%20Actions%20CICD.png)
+### 🔹 Kubernetes Pods Running
 
-# 
+!\[Kubernetes Pods](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Kubernetes%20Pods.png)
 
-# \### 🔹 Grafana Dashboard
+ 
 
-# !\[Grafana Dashboard](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Grafana%20Dashboard.png)
+### 🔹 GitHub Actions CI/CD Pipeline
 
-# 
+!\[GitHub Actions](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/GitHub%20Actions%20CICD.png)
 
-# \### 🔹 Prometheus Targets
+ 
 
-# !\[Prometheus Targets](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Prometheus%20Targets.png)
+### 🔹 Grafana Dashboard
 
-# 
+!\[Grafana Dashboard](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Grafana%20Dashboard.png)
 
-# \### 🔹 Alert Firing in Grafana
+ 
 
-# !\[Alert Firing](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Alert%20Firing.png)
+### 🔹 Prometheus Targets
 
-# 
+!\[Prometheus Targets](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Prometheus%20Targets.png)
 
-# \### 🔹 Slack Alert Notification
+ 
 
-# !\[Slack Alert](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Slack%20Alert%20Message.png)
+### 🔹 Alert Firing in Grafana
+
+!\[Alert Firing](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Alert%20Firing.png)
+
+ 
+
+### 🔹 Slack Alert Notification
+
+!\[Slack Alert](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Slack%20Alert%20Message.png)
 
 # 
 

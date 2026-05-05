@@ -1,12 +1,12 @@
 ﻿## 🚀 GitOps Observability Platform
 
-# 
+
 
 # This project demonstrates a complete \*\*end-to-end DevOps pipeline\*\* using modern cloud-native tools. It covers CI/CD, GitOps deployment, Kubernetes, monitoring, visualization, and real-time alerting.
 
 # 
 
-#---
+---
 
 # 
 

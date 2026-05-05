@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: task-manager-api
-          image: YOUR_DOCKER_USERNAME/task-manager-api:latest
+          image: sathishkumarsvskss/task-manager-api:latest
           ports:
             - containerPort: 5000
           readinessProbe:

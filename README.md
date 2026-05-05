@@ -152,7 +152,7 @@ Slack (Notifications)
 
 ### 🔹 Argo CD Deployment
 
-!\[Argo CD](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Argo%20CD.png)
+![Argo CD](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Argo%20CD.png)
 
  
 

@@ -171,37 +171,37 @@ Slack (Notifications)
 
 ### 🔹 Kubernetes Pods Running
 
-!\[Kubernetes Pods](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Kubernetes%20Pods.png)
+![Kubernetes Pods](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Kubernetes%20Pods.png)
 
  
 
 ### 🔹 GitHub Actions CI/CD Pipeline
 
-!\[GitHub Actions](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/GitHub%20Actions%20CICD.png)
+![GitHub Actions](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/GitHub%20Actions%20CICD.png)
 
  
 
 ### 🔹 Grafana Dashboard
 
-!\[Grafana Dashboard](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Grafana%20Dashboard.png)
+![Grafana Dashboard](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Grafana%20Dashboard.png)
 
  
 
 ### 🔹 Prometheus Targets
 
-!\[Prometheus Targets](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Prometheus%20Targets.png)
+![Prometheus Targets](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Prometheus%20Targets.png)
 
  
 
 ### 🔹 Alert Firing in Grafana
 
-!\[Alert Firing](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Alert%20Firing.png)
+![Alert Firing](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Alert%20Firing.png)
 
  
 
 ### 🔹 Slack Alert Notification
 
-!\[Slack Alert](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Slack%20Alert%20Message.png)
+![Slack Alert](https://github.com/Sathish11-Design/gitops-observability-platform/blob/main/Images/Slack%20Alert%20Message.png)
 
 # 
 

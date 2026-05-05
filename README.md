@@ -2,49 +2,47 @@
 
 
 
-# This project demonstrates a complete \*\*end-to-end DevOps pipeline\*\* using modern cloud-native tools. It covers CI/CD, GitOps deployment, Kubernetes, monitoring, visualization, and real-time alerting.
+This project demonstrates a complete \*\*end-to-end DevOps pipeline\*\* using modern cloud-native tools. It covers CI/CD, GitOps deployment, Kubernetes, monitoring, visualization, and real-time alerting.
 
-# 
+
 
 ---
 
-# 
 
-# \## 🧠 Project Overview
 
-# 
+## 🧠 Project Overview
 
-# In real-world systems, deploying an application is not enough. We must also automate deployments, monitor performance, detect failures, and alert teams.
 
-# 
 
-# This project implements all of these in a single workflow.
+In real-world systems, deploying an application is not enough. We must also automate deployments, monitor performance, detect failures, and alert teams.
 
-# 
 
-# \---
 
-# 
+This project implements all of these in a single workflow.
 
-# \## 🔄 Complete Workflow
 
-# 
 
-# ```
+---
 
-# Developer → GitHub → GitHub Actions → Docker Hub → Argo CD → Kubernetes
 
-# → Prometheus → Grafana → Slack Alerts
 
-# ```
+## 🔄 Complete Workflow
 
-# 
 
-# \### Explanation
 
-# 
+```
 
-# \- Code is pushed to GitHub
+Developer → GitHub → GitHub Actions → Docker Hub → Argo CD → Kubernetes
+
+→ Prometheus → Grafana → Slack Alerts
+
+```
+
+
+### Explanation
+
+
+- Code is pushed to GitHub
 
 # \- GitHub Actions builds and pushes Docker image
 

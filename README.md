@@ -61,30 +61,17 @@ Developer → GitHub → GitHub Actions → Docker Hub → Argo CD → Kubernete
 
 ## 🛠️ Tech Stack
 
-
-
- | Category | Tool |
-
- |---|---|
-
- | Cloud | AWS EC2 |
-
- | Containerization | Docker |
-
- | Orchestration | Kubernetes (k3s) |
-
- | GitOps | Argo CD |
-
- | CI/CD | GitHub Actions |
-
- | Monitoring | Prometheus |
-
- | Visualization | Grafana |
-
- | Alerting | Slack Webhooks |
-
- | Backend | Python Flask |
-
+| Category           | Tool               |
+|-------------------|--------------------|
+| Cloud             | AWS EC2           |
+| Containerization  | Docker            |
+| Orchestration     | Kubernetes (k3s)  |
+| GitOps            | Argo CD           |
+| CI/CD             | GitHub Actions    |
+| Monitoring        | Prometheus        |
+| Visualization     | Grafana           |
+| Alerting          | Slack Webhooks    |
+| Backend           | Python Flask      |
 
 
 ---
